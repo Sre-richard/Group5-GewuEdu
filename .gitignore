@@ -1,0 +1,30 @@
+# --- 操作系统临时文件 ---
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# --- IDE 与 编辑器配置 (VS Code, JetBrains) ---
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- 编程环境与依赖 (Python/Node) ---
+__pycache__/
+*.py[cod]
+node_modules/
+env/
+venv/
+.env
+
+# --- 编译输出与日志 ---
+build/
+dist/
+*.log
+*.tmp
+
+# --- 针对你项目的特殊过滤 ---
+# 如果有人不小心把超大视频直接传上来（建议通过链接分享大文件）
+# *.mp4
+# *.mov
